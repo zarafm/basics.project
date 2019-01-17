@@ -1,4 +1,4 @@
-# gapminder.project
+# basics.project
 My beginning step in conquering Big Data Analytics using R
 
 
