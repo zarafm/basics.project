@@ -31,4 +31,4 @@ titanic.glm1 <- glm(Survived ~ Pclass, family = poisson(),  titanic_train) #pois
 summary(titanic.glm1) #from the analysis it is clear that lower the class the opportunity to survive was less. 
 
 
-##LDA (linear discriminate analysis) has a similar syntax... starting with lda(....) but it is used when response variable has 2 or more levels (categories in text).
+##LDA (linear discriminate analysis) has a similar syntax... starting with lda(....) but it is used when response variable has 2 or more levels (categories in text - example: alive, dead, alive, dead etc.).
