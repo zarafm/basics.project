@@ -1,7 +1,7 @@
 ##to avoid for loops we use nested dataframes. This is particularly useful for stratified datasets - with categorical variables 
 
 gapminder.nested <- gapminder %>% 
-  group_by(country, continent) %>%
+  group_by(country, continent) %>% #group_by works in conjuction with other dplyr operators like filter, arrange, mutate and summarize
   nest()
 gapminder.nested ## this will create a nested dataframe
 
