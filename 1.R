@@ -2,8 +2,8 @@
 
 gapminder.nested <- gapminder %>% 
   group_by(country, continent) %>% #group_by works in conjuction with other dplyr operators like filter, arrange, mutate and summarize
-  nest()
-gapminder.nested ## this will create a nested dataframe
+  nest() #group_by acts on the dataset group by group instead of acting on the entire dataset
+gapminder.nested ## this will create a nested dataframe 
 
 #################################################
 
