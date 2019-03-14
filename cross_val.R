@@ -1,6 +1,7 @@
 #Cross validation using k-fold. 5 parts, 4 parts are used to train and one part is used to test and this carried out for all parts. Refer notes for detailed explanation
 
 ## checking in mpg dataset, which variables give least mean square value... is it hwy ~ displ or hwy ~ displ + drv 
+##CV is used to find out which model is the best - a less complex but yields valuable information
 
 
 library(tidyverse)
