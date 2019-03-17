@@ -9,7 +9,7 @@ as_tibble(BeetleMortality) #remember that tibble shows you what kind of a variab
 #####################################################
 
 BeetleMortality$prop_died <- BeetleMortality$died/BeetleMortality$n
-ggplot(BeetleMortality,aes(dose,prop_died)) + geom_point() #ggplot clearly shows that there is no linear relationship - hence a classification problem
+ggplot(BeetleMortality,aes(dose,prop_died)) + geom_point() #ggplot clearly shows that there is no linear relationship - hence a GLM (logistic) problem
 
 #################### 
 
