@@ -25,4 +25,4 @@ gapminder.model$coef[[1]] ###this is a way to test the function
 
 ##if you want to view data of a particular country then
 
-gapminder.nested[1,]$data
+gapminder.nested[1,]$data #information of Afghanistan as it is the first country + all columns
