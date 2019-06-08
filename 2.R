@@ -32,3 +32,7 @@ summary(titanic.glm1) #from the analysis it is clear that lower the class the op
 
 
 ##LDA (linear discriminate analysis) has a similar syntax... starting with lda(....) but it is used when response variable has 2 or more levels (categories in text - example: alive, dead, alive, dead etc.).
+
+
+## prediction using these can on a indiviual independent value can be predicted as follows:
+predict(results, data.frame(lh = 10), interaval = 'confidence') #predicting the upper and lower limit for 10 labour hours.
