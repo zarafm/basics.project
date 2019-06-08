@@ -13,6 +13,7 @@ ggplot(potential, aes(Name, Potential)) + geom_point()
 # so let us make a dataframe only containg the variables we need
 
 analysis1 <- fifa %>%  select(Overall, Crossing, Finishing, HeadingAccuracy, ShortPassing, Volleys, Dribbling, Curve, FKAccuracy, LongPassing, BallControl, Acceleration, SprintSpeed, Agility, Reactions, Balance, ShotPower, Jumping, Stamina, Strength, LongShots, Aggression, Interceptions, Positioning, Vision, Penalties, Composure, Marking, StandingTackle, SlidingTackle)
+#the above line can be avoided by using column numbers or for ex. 1:7 etc
 a <- lm(Overall ~ ., analysis1)
 
 summary(a)
